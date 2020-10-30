@@ -1,5 +1,7 @@
 # Grocery Checkout
 
+Object Oriented Programming in Java
+
 |Item |Price|Special Price|
 |-----|-----|-------------|
 |A    |50   |3 for 130    |
