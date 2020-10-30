@@ -1,4 +1,4 @@
-# groceryCheckout
+# Grocery Checkout
 
 Item Price Special_Price
 A    50    3 for 130
