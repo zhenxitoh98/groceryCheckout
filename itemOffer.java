@@ -1,10 +1,8 @@
 public class itemOffer {
-	public String name;
-	public Integer quantity;
-	public Integer price;
+	public int quantity;
+	public int price;
 
-	public itemOffer(String Name, Integer Quantity, Integer Price) {
-		name = Name;
+	public itemOffer(int Quantity, int Price) {
 		quantity = Quantity;
 		price = Price;
 	}

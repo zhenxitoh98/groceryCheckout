@@ -15,7 +15,7 @@ public class program {
         ck.scan("C", 0);
         ck.scan("D", 1);
 
-        Integer totalPrice = ck.getTotal();
+        int totalPrice = ck.getTotal();
         System.out.println("Total Price: " + totalPrice);
     }
 }
