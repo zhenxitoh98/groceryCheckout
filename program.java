@@ -7,6 +7,8 @@ public class program {
         ck.setRegularPriceRules("C", 20);
         ck.setRegularPriceRules("D", 15);
 
+        ck.showPrice();
+
         ck.setSpecialPriceRules("A", 3, 130);
         ck.setSpecialPriceRules("B", 2, 45);
 
@@ -17,5 +19,7 @@ public class program {
 
         int totalPrice = ck.getTotal();
         System.out.println("Total Price: " + totalPrice);
+
+        checkout.showCart();
     }
 }

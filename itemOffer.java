@@ -1,9 +1,17 @@
 public class itemOffer {
-	public int quantity;
-	public int price;
+	private int quantity;
+	private int price;
 
 	public itemOffer(int Quantity, int Price) {
-		quantity = Quantity;
-		price = Price;
+		this.quantity = Quantity;
+		this.price = Price;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public int getPrice() {
+		return price;
 	}
 }
